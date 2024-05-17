@@ -63,3 +63,9 @@ Cold start user
 Importance Sampling 
 
 *Last idea evoked* :  "Build the graph on the k means matrix ? then use wordvec ?"
+
+
+### To dos : 
+- [] Testings methods
+- [] Graph analysis
+- [] GNN
