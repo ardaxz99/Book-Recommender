@@ -37,7 +37,7 @@ As our graph is quite large (~54k user, 10k books, millions of edges),it may be 
     Use of LLMs on Title / Authors -> wordvec embedding -> add to feature vector
 
     **Main method : GNNs**
-    1. GraphSage (check Stellar Graph)
+    1. GraphSage (check Stellar Graph [https://stellargraph.readthedocs.io/en/stable/README.html])
     2. GAN 
     3. CONV
 
