@@ -116,7 +116,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-Execute the main script to start the recommendation process:
+Execute the main script to reproduce the results given in the report:
 
 ```
 python main.ipynb
