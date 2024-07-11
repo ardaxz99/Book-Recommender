@@ -1,6 +1,6 @@
 # Goodreads Recommender System
 
-This repository contains the implementation of a robust recommender system for Goodreads, designed to enhance the user experience by providing personalized book recommendations. This system leverages a variety of machine-learning techniques, including content-based filtering, collaborative filtering, matrix factorization, neural collaborative filtering, and graph-based algorithms.
+This repository presents a sophisticated recommender system developed for Goodreads, aimed at refining the user experience through highly personalized book recommendations. Our project introduces two innovative content-based recommendation approaches, compared against traditional machine learning techniques such as collaborative filtering, matrix factorization, neural collaborative filtering, and graph-based models. Each method's performance is rigorously analyzed and benchmarked to evaluate its effectiveness in enhancing recommendation accuracy and user satisfaction.
 
 
 ## Table of Contents
@@ -42,10 +42,10 @@ Note that in the notebook, due to computational resource constraints and the nee
 
 ## Methods
 
-This project utilizes a variety of recommendation techniques to optimize the user experience on Goodreads by suggesting books tailored to their preferences. The methods are implemented as follows:
+In this project, we introduce two novel content-based filtering methods and compare their effectiveness with established recommendation techniques, including collaborative filtering, neural collaborative filtering, matrix factorization, and graph-based algorithms. The aim is to optimize the Goodreads user experience by suggesting books tailored to their preferences.
 
 ### Content Filtering
-Content-based filtering employs descriptive features of books, such as titles, authors, and genres. These features are transformed into vector representations using methods like Word2Vec for textual data, and one-hot encoding for categorical data. This allows the system to compute similarities and recommend books similar to what a user has previously enjoyed.
+We propose two innovative approaches to content-based filtering that utilize descriptive features of books such as titles, authors, and genres. These features are transformed into vector representations using Word2Vec for textual data and one-hot encoding for categorical data, enabling the computation of similarities between books. The new methods are benchmarked against baseline models to validate their performance in providing relevant book recommendations.
 
 ### Collaborative Filtering
 Collaborative filtering predicts user preferences based on the ratings and behaviors of similar users. It includes:
@@ -64,7 +64,7 @@ Matrix factorization techniques decompose the user-item interaction matrix into 
 These methods use graph theory to improve recommendation quality, especially handling new users or items (cold-start problem) and large, sparse datasets:
 - **GraphSage:** Generates embeddings by sampling and aggregating features from a node’s local neighborhood.
 - **LightGCN:** Simplifies the graph convolution network by focusing on neighborhood aggregation without feature transformation and non-linear activation.
-- **NGCF:** Integrates user-item interactions directly into the embedding process, enhancing the collaborative filtering by capturing high-order connectivities.
+- **NGCF:** Integrates user-item interactions directly into the embedding process, enhancing collaborative filtering by capturing high-order connectivities.
 
 These methods are evaluated based on their ability to accurately predict user ratings and effectively rank recommendations, employing metrics such as RMSE, MAE, and NDCG across different training and testing configurations.
 
