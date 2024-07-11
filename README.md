@@ -109,7 +109,7 @@ source env/bin/activate  # On Windows use `env\Scripts\activate`
 ### Installing Dependencies
 
 ```
-git clone https://github.com/your-github/goodreads-recommender.git
+git clone https://github.com/ardaxz99/Book-Recommender.git
 cd goodreads-recommender
 pip install -r requirements.txt
 ```
