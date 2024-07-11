@@ -15,6 +15,8 @@ This repository presents a sophisticated recommender system developed for Goodre
   - [Graph-Based Algorithms](#graph-based-algorithms)
 - [Results](#results)
 - [Conclusion](#conclusion)
+- [Installation](#installation)
+- [Usage](#usage)
 - [Contributors](#contributors)
 - [License](#license)
 
@@ -89,6 +91,35 @@ These metrics were applied across different train/test split configurations to m
 ## Conclusion
 
 The evaluation reveals that different methods excel under different configurations. Techniques like SGD-SVD and ALS-SVD are robust in rating prediction tasks, whereas graph-based methods show promise in ranking tasks.
+
+## Installation
+
+### Prerequisites
+
+- Python 3.8 or higher
+- pip (Python package installer)
+
+### Setting Up a Virtual Environment
+
+```bash
+python -m venv env
+source env/bin/activate  # On Windows use `env\Scripts\activate`
+```
+
+### Installing Dependencies
+
+```
+git clone https://github.com/your-github/goodreads-recommender.git
+cd goodreads-recommender
+pip install -r requirements.txt
+```
+
+## Usage
+
+Execute the main script to start the recommendation process:
+
+python main.py
+
 
 ## Contributors
 
