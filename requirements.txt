@@ -1,0 +1,11 @@
+pandas
+matplotlib
+seaborn
+networkx
+numpy
+scikit-learn
+scipy
+gensim
+tqdm
+LibRecommender
+tensorflow
