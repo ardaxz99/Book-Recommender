@@ -116,10 +116,11 @@ pip install -r requirements.txt
 
 ## Usage
 
-Execute the main script to reproduce the results given in the report:
+Execute the Jupyter notebook to reproduce the results:
+
 
 ```
-python main.ipynb
+jupyter nbconvert --to notebook --execute main.ipynb
 ```
 
 ## Contributors
