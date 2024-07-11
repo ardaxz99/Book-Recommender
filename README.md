@@ -118,8 +118,9 @@ pip install -r requirements.txt
 
 Execute the main script to start the recommendation process:
 
+```
 python main.py
-
+```
 
 ## Contributors
 
