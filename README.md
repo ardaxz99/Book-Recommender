@@ -14,7 +14,6 @@ This repository presents a sophisticated recommender system developed for Goodre
   - [Matrix Factorization Techniques](#matrix-factorization-techniques)
   - [Graph-Based Algorithms](#graph-based-algorithms)
 - [Results](#results)
-- [Conclusion](#conclusion)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributors](#contributors)
@@ -87,10 +86,6 @@ The performance of our recommender system was rigorously evaluated across variou
 - **Mean Average Precision (MAP):** Provides an average precision score across all queries, offering insight into the overall precision of the system.
 
 These metrics were applied across different train/test split configurations to mimic real-world scenarios and challenges, particularly focusing on few-shot learning where limited data is available. By analyzing the performance under these conditions, we were able to optimize our models to deliver accurate and reliable book recommendations.
-
-## Conclusion
-
-The evaluation reveals that different methods excel under different configurations. Techniques like SGD-SVD and ALS-SVD are robust in rating prediction tasks, whereas graph-based methods show promise in ranking tasks.
 
 ## Installation
 
